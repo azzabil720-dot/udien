@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratularion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #701619, #47403e, #9a0b0b, #b04646);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #161414;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            padding: 40px 30px;
+            max-width: 700px;
+            width: 90%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .emoji {
+            font-size: 60px;
+            margin-bottom: 20px;
+            animation: bounce 6.5s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 12px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #ff0101;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #840808;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="emoji">🥳🥳🥳🥳🥳</div>
+        <h1>Selamat Keterima di UNS!</h1>
+
+        <p>HALOOOOO selamat yaaa kamu udah keterima di UNS</p>
+        <p>Dari hari ke hari, lo makin jago, makin keren, dan makin bikin orang sekitar pengen ikut bahagia.</p>
+        <p>Semoga kesehatan lo tetap prima, rezeki makin lancar, dan hidup lo makin banyak momen yang bikin senyum lebar.</p>
+        <p>Semoga tahun ini lo makin sukses, makin semangat, dan makin sering dapet hal-hal baik yang bikin lo bilang, <span class="highlight">“gua bersyukur banget sumpah”</span> 😆</p>
+
+        <div class="footer">Pokoknya bahagia terus, sukses, tetap lucu, dan tetap keren yaa!!😤😤</div>
+    </div>
+</body>
+</html>
